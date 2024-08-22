@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic way of creating a table</title>
+    <style>
+        table,thead,tbody,tfoot,tr,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+        <legend>Semantic Elements Table</legend>
+    <table>
+        <caption>
+            Practice Table
+        </caption>
+      <thead>
+        <tr>
+          <td colspan="4">First</td>
+          
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td rowspan="3">Fifth</td>
+          <td colspan="2">Sixth</td>
+          <td rowspan="3">Eighth</td>
+        </tr>
+        <tr>
+          
+          <td colspan="2">Tenth</td>
+          
+          
+          
+        
+        </tr>
+        <tr>
+          
+          <td colspan="2">Fourth</td>
+          
+      
+          
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Seventeenth</td>
+          
+        </tr>
+      </tfoot>
+    </table>
+    </fieldset>
+    <bdo dir="rtl"><p> hello welcome to the bdo element</p>
+    <p>This element prints the data which direction you want </p>
+  <p>By default,HTML has left to right direction for printing the data </p></bdo>
+  </body>
+</html>
